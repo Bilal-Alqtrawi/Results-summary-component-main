@@ -1,0 +1,116 @@
+/* Start Container */
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+  }
+}
+/* Mobile Small */
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+/* Mobile Meduim */
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+/* Screen large */
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+/* Desktop x-large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+/* Desktop XX-Large*/
+@media (min-width: 1440px) {
+  .container {
+    width: 1320px;
+  }
+}
+/* End Container */
+
+/* Card */
+@media (max-width: 991px) {
+  .card {
+    padding: 0;
+    overflow: hidden;
+  }
+  .card .container {
+    width: 100%;
+    padding: 0;
+    /* padding: 0; */
+  }
+  .card .result {
+    flex-basis: 100%;
+  }
+  .card .result .per-result {
+    width: 120px;
+    height: 120px;
+  }
+  .result .per-result span:first-child {
+    font-size: 45px;
+  }
+  .result .per-result span:last-child {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .card {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  .card .result {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+  }
+  .card .summary {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  .card .result p {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card .summary .title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .card .summary ul li {
+    margin-bottom: 20px;
+  }
+  .card .continue-btn {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 16px;
+  }
+}
+/* @media (max-width: 991px) {
+  .card {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card .container .result {
+    flex-basis: 100%;
+  }
+  .card .container .summary {
+    flex-basis: 100%;
+  }
+} */
+/* Card */
